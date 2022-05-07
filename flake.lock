@@ -35,20 +35,22 @@
     "ranges": {
       "inputs": {
         "flakeNimbleLib": [
+          "rlp-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "rlp-master",
           "nixpkgs"
         ],
         "src-ranges-master": "src-ranges-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918350,
-        "narHash": "sha256-b67QS2p2sYXfXfgjetqwC2XSXSaXy5UmAVMPVsrggdQ=",
+        "lastModified": 1651555938,
+        "narHash": "sha256-UcY4Q9LAUizWZ5/xYMJ9GlrvgUJif+K4vlcvDEK9mco=",
         "owner": "nim-nix-pkgs",
         "repo": "ranges",
-        "rev": "d2406620ffd09b4fce694453562ca401e04a19fb",
+        "rev": "81ff31c57983a3c114be62fc8bdc33dba88d9e2e",
         "type": "github"
       },
       "original": {
@@ -59,12 +61,39 @@
         "type": "github"
       }
     },
+    "rlp-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "ranges": "ranges",
+        "src-rlp-master": "src-rlp-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651556836,
+        "narHash": "sha256-MrCdkW5lECWcNOuLJvN3B3UxE6tujryaU976JC1WuSw=",
+        "owner": "nim-nix-pkgs",
+        "repo": "rlp",
+        "rev": "3c5cfa483f63dee82a9b53fe21ad30fe9ca8e03d",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "rlp",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "ranges": "ranges",
-        "src-rlp-master": "src-rlp-master"
+        "rlp-master": "rlp-master"
       }
     },
     "src-ranges-master": {
